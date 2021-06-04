@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -89,7 +90,7 @@ nav{
     justify-content: space-between;
 }
 
-.headerImage{
+.header-image{
     background-image: url('../img/jumbo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,4 +211,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page Section */
+
+.about-image{
+    background-image: url('../img/jumbo-about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+
+    margin: 2% 0 2% 0;
+}
+
+.about-section{
+    padding: 0 3% 2% 3%;
+    border-bottom: 1px dotted black;
+}
+
+.about-features{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature{
+    width: 48%;
+    margin: 0 auto;
+    border-bottom: 1px dotted black;
+    padding: 4% 0 3% 1%;
+}
+
+.feature h4{
+    margin-top: 2%;
+}
+
+.feature button{
+    background-color:white;
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 1.8% 6%;
+    font-size: 1.1rem;
+    margin: 5% 0 0 0;
+}
+
+.work-together{
+    padding: 5% 2%;
 }
